@@ -26,4 +26,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
       with:
-        args: target/release/hd
+        args: target/x86_64-unknown-linux-musl/release/hd
